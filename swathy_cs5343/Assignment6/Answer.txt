@@ -1,0 +1,18 @@
+Question:
+If the table size is more than 20,000 and the words to insert are 8000, is the above hashing algorithm adequate ? why ?
+
+
+Answer:
+The hashing algorithm uses quadratic probing to avoid collision and I have maintained the load factor as 0.5.
+
+Load factor = No.of elements occupied in hash table / Hash Table size
+
+When inserting new element, I check the load factor. If the load factor comes above 0.5, I increase the table size to the next closest
+double prime and then rehash all the items in the table.
+
+So, when the table size is more than 20000 and words to insert are 8000, the hashing algorithm is adequate and we will still have empty 
+spaces to insert these words as load factor is below 0.5 (close to 0.4) when inserting 8000th word.
+
+Load factor when inserting 8000th word will be, 
+Load factor = 8000/20000 = 0.4
+

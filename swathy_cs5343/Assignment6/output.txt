@@ -1,0 +1,46 @@
+value: A3 14, index: 1
+value: B 123, index: 0
+value: CAT 678, index: 10
+value: FALL18, index: 20
+value: HOME, index: 18
+value: ECS 421, index: 30
+value: Swa GEA, index: 9
+value: images123, index: 5
+value: Google 20, index: 22
+value: Windows98, index: 23
+value: TexasAM, index: 8
+value: GoldMan 9, index: 19
+value: Eagle 45, index: 26
+value: DjikSTRAS, index: 12
+value: BellMan, index: 16
+value: Eugene, index: 13
+***Load factor has reached 0.5, so increasing table size & rehashing***
+value: B 123, index: 47
+value: A3 14, index: 48
+value: images123, index: 43
+value: TexasAM, index: 56
+value: Swa GEA, index: 0
+value: CAT 678, index: 11
+value: DjikSTRAS, index: 46
+value: Eugene, index: 65
+value: BellMan, index: 64
+value: HOME, index: 29
+value: GoldMan 9, index: 26
+value: FALL18, index: 57
+value: Google 20, index: 66
+value: Windows98, index: 60
+value: Eagle 45, index: 12
+value: ECS 421, index: 1
+Completed rehashing with new table size: 67
+value: N Tesla, index: 13
+value: Turning, index: 6
+value: MarieCurie, index: 61
+value: R Bayer, index: 10
+
+**************
+Total Collisions: 9
+Final table size: 67
+Total Elements: 20
+Total Rehash: 1
+Final elements in table:
+ [Swa GEA, ECS 421, null, null, null, null, Turning, null, null, null, R Bayer, CAT 678, Eagle 45, N Tesla, null, null, null, null, null, null, null, null, null, null, null, null, GoldMan 9, null, null, HOME, null, null, null, null, null, null, null, null, null, null, null, null, null, images123, null, null, DjikSTRAS, B 123, A3 14, null, null, null, null, null, null, null, TexasAM, FALL18, null, null, Windows98, MarieCurie, null, null, BellMan, Eugene, Google 20]
